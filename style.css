@@ -1,0 +1,98 @@
+:root {
+  --primary-color: #009eb2;
+  --titlle-color: #e8f1f2;
+  --text-color: #130b1b;
+  --button-color: #221a27;
+  --buttonf-color: #ff4500;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--text-color);
+  margin: 0;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  background-color: var(--primary-color);
+
+  width: 100%;
+  height: 50px;
+
+  margin-bottom: -1;
+}
+
+#nav-menu {
+  display: flex;
+  column-gap: 2rem;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+#cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--primary-color);
+
+  width: 100%;
+  height: 250px;
+
+  border-bottom-left-radius: 75%;
+  border-bottom-right-radius: 75%;
+}
+
+.imagen {
+  margin-bottom: 9rem;
+  border-radius: 50%;
+  border: 4px solid var(--primary-color);
+  width: 10rem;
+  position: relative;
+  z-index: 15;
+  margin-top: 2rem;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+
+  z-index: 10;
+
+  margin-top: -160px;
+}
+
+#titlle {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+#button-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--titlle-color);
+
+  width: 90%;
+  height: 100%;
+}
+
+#button {
+  border-radius: 1.5rem;
+  width: 95%;
+  height: 100px;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+  background-color: var(--buttonf-color);
+}
+
+@media (min-width: 1024px) {
+}
